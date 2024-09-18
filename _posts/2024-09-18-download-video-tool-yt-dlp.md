@@ -7,8 +7,6 @@ tags: [yt-dlp, Tool]
 render_with_liquid: false
 ---
 
-# 從線上平台下載影音到電腦本機端的工具 - yt-dlp
-
 這篇文章純粹是記錄一下工具，方便之後找尋。
 
 ## 簡單介紹

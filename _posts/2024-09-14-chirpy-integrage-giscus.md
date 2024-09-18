@@ -7,8 +7,6 @@ tags: [GitHub Pages, Jekyll, Chirpy, Giscus]
 render_with_liquid: false
 ---
 
-# 在 Chirpy 上整合 Giscus
-
 為了能夠在 GitHub Pages 留言，這邊我們使用 [Giscus](https://giscus.app/zh-TW) 這個服務。
 
 ## 使用 Giscus 前置動作

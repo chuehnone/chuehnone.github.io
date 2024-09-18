@@ -7,8 +7,6 @@ tags: [GitHub Pages, Jekyll]
 render_with_liquid: false
 ---
 
-# 快速在 GitHub Pages 上建立 Blog
-
 ## 使用 Chirpy
 
 Chirpy 是一個 Jekyll 主題，可以讓你快速建立一個漂亮的 Blog。
