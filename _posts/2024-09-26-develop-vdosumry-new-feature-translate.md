@@ -7,7 +7,7 @@ tags: [Tool, vdosumry]
 render_with_liquid: false
 ---
 
-今天是 llama 釋出 3.2，嘗試用 Vdosumry 做 meta 這次發表會影片的摘要，但是摘要的結果卻是英文，所以就多增加了翻譯的功能
+今天是 llama 釋出 3.2，嘗試用 [Vdosumry](https://github.com/chuehnone/vdosumry) 做 meta 這次發表會影片的摘要，但是摘要的結果卻是英文，所以就多增加了翻譯的功能
 
 ## 翻譯功能
 
