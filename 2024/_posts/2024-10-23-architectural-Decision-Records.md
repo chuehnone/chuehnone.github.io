@@ -5,6 +5,9 @@ date: 2024-10-23 10:58:00 +0800
 categories: [學習, 工具]
 tags: [Architectural Decision Records, ADRs, Tool, adr-tools, graphviz]
 render_with_liquid: false
+image:
+  path: /assets/images/20241023/graph.png
+  alt: 透過 adr-tools 與 graphviz 產生的流程圖
 ---
 
 **Architectural Decision Records** 翻譯成中文，是架構決策記錄，簡稱 ADRs。這是一種記錄軟體架構決策的方式，可以讓團隊更容易了解為什麼要做這樣的決策，以及這個決策的背景。
