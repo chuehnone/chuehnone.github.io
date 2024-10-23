@@ -3,7 +3,7 @@ title: 使用 Architectural Decision Records (ADRs)
 author: chuehnone
 date: 2024-10-23 10:58:00 +0800
 categories: [學習, 工具]
-tags: [Architectural Decision Records, ADRs, Tool, adr-tools]
+tags: [Architectural Decision Records, ADRs, Tool, adr-tools, graphviz]
 render_with_liquid: false
 ---
 
@@ -176,6 +176,20 @@ What becomes easier or more difficult to do and any risks introduced by the chan
 ```
 
 新增的內容，在 Status 也可以看到被取代的檔案連結
+
+
+## 產生流程圖
+
+我們會先產出 dot 檔案，再透過 [graphviz](https://graphviz.org/) 來產生流程圖
+
+```bash
+adr generate graph > graph.dot
+dot -Tpng graph.dot graph.png
+```
+
+就可以產出這張圖片
+
+![ADR Graph](/assets/images/20241023/graph.png)
 
 
 ## 其他範例
