@@ -187,7 +187,7 @@ What becomes easier or more difficult to do and any risks introduced by the chan
 
 ```bash
 adr generate graph > graph.dot
-dot -Tpng graph.dot graph.png
+dot -Tpng graph.dot -o graph.png
 ```
 
 就可以產出這張圖片
