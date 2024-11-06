@@ -51,6 +51,11 @@ Local run
 bundle exec jekyll s
 ```
 
+Create new post
+```bash
+bundle exec jekyll post "file name" -s "./2024"
+```
+
 ## Contributing
 
 This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
