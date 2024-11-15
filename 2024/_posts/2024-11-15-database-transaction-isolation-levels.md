@@ -11,8 +11,8 @@ image:
 ---
 
 ## Transaction
-在說明 Transaction Isolation Levels 之前，我們先來了解一 Transaction 的概念。
-Transaction 是指在資料庫上執行單筆或多筆 SQL 指令，這些 SQL 指令可以是 Select、Insert、Update、Delete 等等，而這些指令在這次 Transaction 時，視為同一包，只會一起成功或資料狀態不變。
+在說明 Transaction Isolation Levels 之前，我們先來了解一下 Transaction 的概念。
+Transaction 是指在資料庫上執行一包單筆或多筆 SQL 指令，這些 SQL 指令可以是 Select、Insert、Update、Delete 等等，而這些指令在這次 Transaction 時，視為同一包，只會一起成功或資料狀態不變。
 
 
 ## ACID
