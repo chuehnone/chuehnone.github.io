@@ -16,7 +16,7 @@ Chirpy 是一個 Jekyll 主題，可以讓你快速建立一個漂亮的 Blog。
 - 到 [chirpy-starter](https://github.com/cotes2020/chirpy-starter) 點選 <kbd>Use this template</kbd> 按鈕
 - 選擇 <kbd>Create a new repository</kbd> 點擊，如下圖
 
-![](/assets/images/20240913/1.png)
+![](/assets/images/2024/20240913/1.png)
 
 - 輸入 Repository name，`<name>.github.io` 其中 `<name>` 是要建立的名稱
 

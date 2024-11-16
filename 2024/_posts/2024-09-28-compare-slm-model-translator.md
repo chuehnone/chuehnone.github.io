@@ -11,7 +11,7 @@ render_with_liquid: false
 
 查了一下 [Meta Blog 有分享相關的 benchmark](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/)
 
-![](/assets/images/20240928/llm-benchmark.png)
+![](/assets/images/2024/20240928/llm-benchmark.png)
 
 在這份 benchmark 是拿 llama 3.2 跟 phi 3.5 mini 和 gemma 2 做比較，所以就好奇拿上次同樣的英文來翻譯成中文，結果會是什麼。
 

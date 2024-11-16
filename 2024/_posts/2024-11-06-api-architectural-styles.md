@@ -6,7 +6,7 @@ categories: [學習]
 tags: [API]
 render_with_liquid: false
 image:
-  path: /assets/images/20241106/api-styles-table.png
+  path: /assets/images/2024/20241106/api-styles-table.png
   alt: API 架構風格比較表格
 ---
 
@@ -99,6 +99,11 @@ Webhook 是一種 API 的應用，是一種異步的 API。當某些事件發生
 
 ### WebSocket
 WebSocket 是一種雙向通訊協定，可以在單個 TCP 連線上提供全雙工通訊。WebSocket 可以在應用程式和伺服器之間建立持久性連線，並且可以在伺服器和應用程式之間進行即時通訊。
+
+
+## 比較表格
+以下是一個簡單的比較表格，來比較這幾種 API 架構風格的特性。
+![](../assets/images/2024/20241106/api-styles-table.png)
 
 
 ## 參考

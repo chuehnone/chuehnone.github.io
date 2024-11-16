@@ -15,11 +15,11 @@ render_with_liquid: false
 
 ## zh_TW 顯示樣式
 
-![](/assets/images/20241005/zh-tw.png)
+![](/assets/images/2024/20241005/zh-tw.png)
 
 ## default 顯示樣式
 
-![](/assets/images/20241005/default.png)
+![](/assets/images/2024/20241005/default.png)
 
 ## 其他調整
 

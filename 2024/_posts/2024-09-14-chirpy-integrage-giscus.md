@@ -21,7 +21,7 @@ render_with_liquid: false
 
 - 到 Repository 的 Settings
 - General -> Features -> Discussions 打勾就可以了，如下圖
-  ![](/assets/images/20240914/1.png)
+  ![](/assets/images/2024/20240914/1.png)
 
 ## Chriry 上整合 Giscus
 

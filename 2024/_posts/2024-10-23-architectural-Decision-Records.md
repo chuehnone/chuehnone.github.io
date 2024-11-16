@@ -6,7 +6,7 @@ categories: [學習, 工具]
 tags: [Architectural Decision Records, ADRs, Tool, adr-tools, graphviz]
 render_with_liquid: false
 image:
-  path: /assets/images/20241023/graph.png
+  path: /assets/images/2024/20241023/graph.png
   alt: 透過 adr-tools 與 graphviz 產生的流程圖
 ---
 
@@ -192,7 +192,7 @@ dot -Tpng graph.dot -o graph.png
 
 就可以產出這張圖片
 
-![ADR Graph](/assets/images/20241023/graph.png)
+![ADR Graph](/assets/images/2024/20241023/graph.png)
 
 
 ## 其他範例

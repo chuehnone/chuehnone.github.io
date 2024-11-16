@@ -6,7 +6,7 @@ categories: [學習]
 tags: [database, isolation]
 render_with_liquid: false
 image:
-  path: /assets/images/20241115/isolation-levels.png
+  path: /assets/images/2024/20241115/isolation-levels.png
   alt: isolation levels
 ---
 
@@ -26,13 +26,13 @@ Transaction 是指在資料庫上執行一包單筆或多筆 SQL 指令，這些
 ## Read Phenomena
 有了上述的基本概念，當多個 Transaction 同時存取資料庫時，可能會發生一些讀取問題
 - 髒讀 (Dirty Read)：一個 Transaction 讀取到另一個 Transaction 尚未 Commit 的資料，造成過程中讀到髒資料。
-![Dirty Read](/assets/images/20241115/dirty-read.png)
+![Dirty Read](/assets/images/2024/20241115/dirty-read.png)
 
 - 不可重複讀 (Non-Repeatable Read)：一個 Transaction 在讀取資料時，另一個 Transaction 修改了資料，導致第一個 Transaction 重新讀取時，資料不一樣。
-![Non-Repeatable Read](/assets/images/20241115/non-repeatable-read.png)
+![Non-Repeatable Read](/assets/images/2024/20241115/non-repeatable-read.png)
 
 - 幻讀 (Phantom Read)：：一個 Transaction 在讀取資料時，另一個 Transaction 新增或刪除了資料，導致第一個 Transaction 重新讀取時，資料不一樣。
-  ![Phantom Read](/assets/images/20241115/phantom-read.png)
+  ![Phantom Read](/assets/images/2024/20241115/phantom-read.png)
 
 ## Isolation Levels
 為了解決上述的問題，資料庫提供了不同的 Isolation Levels，讓使用者可以根據需求來選擇適合的 Isolation Levels。
@@ -50,7 +50,7 @@ Transaction 是指在資料庫上執行一包單筆或多筆 SQL 指令，這些
   - 不允許：髒讀、不可重複讀、幻讀。
 
 如圖示
-![Isolation Levels](/assets/images/20241115/isolation-levels.png)
+![Isolation Levels](/assets/images/2024/20241115/isolation-levels.png)
 
 那為什麼會有這樣的需求出現呢？主要是為了實現隔離，不外乎就是透過 Lock 機制來達成，而 Lock 會造成效能的問題，所以會需要根據需求來選擇適合的 Isolation Levels，進而提升併發效能。
 
