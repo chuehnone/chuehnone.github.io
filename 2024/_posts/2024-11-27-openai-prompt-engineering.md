@@ -10,6 +10,7 @@ render_with_liquid: false
 image:
   path: "/assets/images/2024/20241127/prompt.webp"
   alt: Prompt engineering
+date: 2024-11-27 14:20 +0800
 ---
 ## 什麼是 Prompt Engineering
 
@@ -96,11 +97,13 @@ Prompt Engineering 是一門設計與優化生成式 AI 輸入指令的技術與
 
 ### 策略二：提供參考文字（Provide Reference Text）
 
-在提供參考文字部分，主要有兩種
+寫下清楚指示後，如果是有限縮在某個範圍內的回答，就可以採用這個策略，來避免 AI 回答不相關的內容。
+
+提供參考文字部分，主要有兩種
 - 參考文字回答
 - 引用參考文字回答
 
-主要都是以參考文字的內容為主，來避免 AI 產出不相關的內容。
+都是為了精準回答內容，讓 AI 只能回答我們指定的範圍內，只是差異在引用會基於參考文字內容，而有些延伸的答案。
 
 ### 策略三：複雜任務拆解成簡單任務（Split Complex Tasks into Simpler Subtasks）
 
@@ -131,6 +134,8 @@ Prompt Engineering 是一門設計與優化生成式 AI 輸入指令的技術與
 
 ### 策略四：讓 AI 有思考時間（Give the Model Time to 'Think'）
 
+而當任務變得複雜時，讓 AI 有更多時間思考，能幫助它產出更深思熟慮的結果。
+
 - 讓 AI 列出解決方法
 - 使用內心獨白或持續的詢問來隱藏推理過程
 - 問 AI 是否有遺漏過程
@@ -143,7 +148,14 @@ Prompt Engineering 是一門設計與優化生成式 AI 輸入指令的技術與
 
 ### 策略六：有系統的持續測試（Test Changes Systematically）
 
-- 
+為了持續優化 AI 回答的內容，我們需要有個評估方式，來判別 AI 這次回答的結果的分數。
+
+OpenAI 提供了 [OpenAI Evals](https://github.com/openai/evals) 工具，可以讓我們進行評估。
+
+## 總結
+
+現階段在 Prompt Engineering，為了追求 AI 回覆的成效，從這 OpenAI 六大策略可以看出，基本的 prompt 優化，到更進階的分類、引用、拆解、思考、外部工具、持續測試，都是為了讓 AI 回覆的內容更符合我們的需求。
+而掌握了 Prompt Engineering 方式，可以幫助我們更有效的利用時間，提升我們工作的產出效率。。
 
 ## 參考
 - [OpenAI Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
