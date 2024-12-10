@@ -6,6 +6,7 @@ categories:
 tags:
 - OpenAI
 - prompt
+- prompt engineering
 render_with_liquid: false
 image:
   path: "/assets/images/2024/20241127/prompt.webp"
