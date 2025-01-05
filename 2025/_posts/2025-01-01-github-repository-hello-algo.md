@@ -1,5 +1,5 @@
 ---
-title: GitHub repository - hello-algo
+title: GitHub repository - hello-algo 互動式學習演算法
 author: chuehnone
 categories:
   - 學習
