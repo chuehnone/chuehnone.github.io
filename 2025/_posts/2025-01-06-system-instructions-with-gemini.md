@@ -9,6 +9,7 @@ tags:
   - AI
   - prompt
   - Google AI Studio
+  - YouTube
 date: 2025-01-06 16:16 +0800
 ---
 
